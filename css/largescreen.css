@@ -1,0 +1,658 @@
+
+
+/**************************************************************************************/
+/******************************Desktop*************************************************/
+/**************************************************************************************/
+@media only screen and (min-width: 1000px) {
+    .whole-page-wrapper{
+        min-width: 100%;
+    }
+/**************************************************************************************/
+/******************************Header*************************************************/
+/**************************************************************************************/
+
+
+.header-wrapper{
+    width:100%;
+}
+
+.top-header-wrapper{
+    width: 100%;
+}
+.top-header-container{
+    width:75%;
+    background-color:black;
+    margin:0 auto;
+    padding-top: 1.2%;
+    padding-bottom: 1.3%;
+    overflow: hidden;
+}
+
+/*************left top***********************/
+.main-logo img{
+    padding-left: 0%;
+}
+/*************right top***********************/
+
+
+.right-topcontain{
+    width: 100%;
+    overflow: hidden;
+    text-align: right;
+   }
+
+.search-option{
+    display: block;
+}
+.right-top-header ul{
+    list-style: none;
+    color:grey;
+    font-size: small;
+    overflow: hidden;
+}
+.right-top-header li{
+    float: right; 
+    padding-left: 5%;
+} 
+.right-top-header li a{
+    display: block;
+    color: grey;
+    text-decoration: none;
+    
+}
+li a:hover {
+    color: blanchedalmond;
+  }
+
+/*************** Bottom Header *****************/
+
+
+.button-header-container{
+    width:75%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.hamicon{
+    display: none;
+}
+
+.bheader-nav{
+    display: block;
+    padding-top: 0%;
+    overflow: hidden;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.bheader-nav ul{
+    list-style-type: none;
+   
+}
+.bheader-nav li{
+    float: left;
+    padding-left: 5%;
+}
+
+
+.bheader-nav li:first-child{
+    padding-left: 0;
+}
+.bheader-nav li a{
+    display: block;
+    text-decoration: none;
+    color:black;
+}
+.bheader-nav li a:hover{
+    color:#57c5a0;
+}
+
+
+.bh-right ul{
+    list-style-type: none;
+    padding-top: 0%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.bh-right li{
+    float: right;
+    padding-left: 3%;
+}
+
+.bh-right li a{
+    display: block;
+    text-decoration: none;
+   
+}
+
+.bh-right li:first-child{
+    padding-right: 0%;
+}
+
+.bh-right ul li img{
+    max-width: 100%;
+}
+
+
+
+    
+    
+    /**************************************************************************************/
+    /*****************************************Body*****************************************/
+    /**************************************************************************************/
+
+    /************Body Top*******/
+    .body-top-wrapper{
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    
+    .body-top{
+        width:67.368421%;
+        margin:0 auto;
+        overflow: hidden;
+    }
+    
+    .body-top img{
+        height: fit-content;
+        overflow: hidden;
+    }
+    .product-slider{
+        position: relative;
+    }
+    .slider-cont{
+        position: absolute;
+        top:20%;
+        left: 50%;
+    }
+    .slider-cont ul{
+        list-style-type: none;
+    }
+    .slider-cont ul li{
+        float: left;
+    }
+    .slider-cont ul li a{
+        text-decoration: none;
+    }
+
+    
+
+
+
+
+    
+    /************Body Second*******/
+.body-second-wrapper{
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.onsale-product{
+    width:75%;
+    margin: 0 auto;
+}
+
+ .onsale-listing ul{
+     list-style: none;
+     overflow: hidden; 
+}
+
+.onsale-listing li{
+   float: left;
+   width: 33%;
+   padding-left: 0.3%;
+}
+
+.onsale-listing li:last-child{
+    padding-right: 0;
+}
+.onsale-listing li img{
+    width: 100%;
+}
+
+.onsale-1, .onsal-2, .onsale-3{
+position: relative;
+}
+
+.on-sale-banner{
+position: absolute;
+left:25%;
+top:40%;
+}
+
+
+
+    
+
+    /************Body Third*******/
+
+.body-third-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+    .new-arrivals{
+    width:75%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+    /******New Arrival Header ********/
+
+    .new-arrivals-header{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+    .arrivals-left{
+    padding-top: 0%;
+    text-align:left;
+    padding-bottom: 0;
+}
+    .arrivals-left{
+    width: 50%;
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: x-large;
+    }
+
+    .arrivals-right{
+        text-align:none;
+        border: none;
+    }
+
+    .arrivals-right a{
+        text-decoration: none;
+        font-size: none;
+        padding: 0%;
+        }
+
+    .arrivals-right{
+            width: 50%;
+            float: right;
+            padding-top:3%;
+            padding-bottom: 3%;
+            text-align: end;
+    }
+    .arrivals-right a{
+    text-decoration: none;
+    color: #bfbac1;
+    border: 1px solid  #bfbac1 ;
+    }
+
+    /***********Arrival Content ************/
+
+.new-arrival-content{
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+}
+.new-arrival-content ul{
+    list-style-type: none;
+}
+.new-arrival-content ul li{
+    padding-bottom: 5%;
+}
+
+
+    .new-arrival-listing {
+        list-style: none;
+        overflow: hidden; 
+   }
+
+   .new-arrival-listing li{
+      float: left;
+      width: 30%;
+      margin-left:1%;
+      margin-right: 1%;
+      background-color: white;
+
+   }
+
+   .new-arrival-listing li img{
+       width: 80%;
+   }
+   
+  .new-arrival-1{
+      position: relative;
+      border-bottom:solid 0.5px silver;
+     
+  }
+  .price-tag img{
+      max-width: 100%;
+  }
+  .price-tag{
+      position: absolute;
+      left: 2%;
+      top:95%;
+  }
+
+  .desc{
+    position: absolute;
+    left: 40%;
+    top:102%;
+    background-color: white;
+  }
+
+
+  .desc a:hover{
+      color: #3ecf93;
+  }
+
+  .desc a{
+      color: black;
+      font-size: medium;
+  }
+
+
+  .banner-out{
+    position: absolute;
+    left: 80%;
+    top:0%;
+  }
+ 
+  .os2{
+    position: absolute;
+    left: 80%;
+    top:0%;
+  }
+  
+
+
+
+
+    /************Body Fifth*******/
+
+    /************Body last*******/
+.body-last-wrapper{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: #ebe7df;
+}
+.body-last-container{
+    width:75%;
+    margin:0 auto; 
+    overflow: hidden;   
+}
+.body-last-left{
+    width: 46.290801%;
+    float: left;
+    background-color:#ebe7df;
+    overflow: hidden;
+}
+.span1_of_2{
+    width: 46.794871%;
+    float: left;
+    padding-right: 6.410256%;
+    overflow: hidden;
+    background-color: #dfdbd4;
+    padding-left: 3%;
+}
+.span2_of_2{
+    width: 46.794871%;
+    float: left;
+    overflow: hidden;
+    background-color: #dfdbd4;
+    margin-left:6%;
+    padding-left: 3%;
+    padding-bottom: 6%;
+}
+.body-last-right{
+width:53.709199% ;
+background-color: #dfdbd4;
+float: right;
+overflow: hidden;
+padding-top: 1%;
+padding-bottom: 5%;
+}
+
+.body-last-header{
+    padding-left: 5%;
+}
+
+.date1{
+    width: 7%;
+    float: left;
+    padding-left: 2%;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.date-text{
+    width:85%;
+    float: left;
+    overflow: hidden;
+    padding-left: 2%;
+   
+}
+.date_text a{
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+
+                /************Body sixth*******/
+
+                .body-six-wrapper{
+                    width: 100%;
+                    overflow:hidden;
+                    background-color:rgb(36,36,36);
+                    padding-bottom: 2.5%;
+                    padding-top: 2.5%;
+                }
+                
+                .body-six-container{
+                    width:67.368421%;
+                    margin:0 auto;
+                    overflow: hidden;
+                   
+                }
+                
+                .body-six-up{
+                    width: 100%;
+                    overflow: hidden;
+                    font: italic;
+                }
+                
+                .sixup-left{
+                    width: 32%;
+                    overflow: hidden;
+                    float:left;
+                }
+                
+                .sl-header{
+                    color: silver;
+                    padding-left: 0%;
+                }
+                
+                .sl-contain{
+                    color: silver;
+                    padding-left: 0%;
+                    padding-right: 0%;
+                }
+                .sixup-right{
+                    width: 65%;
+                    margin-left: 3%;
+                    overflow: hidden;
+                    padding-top: 0%;
+                }
+                
+                .sr-left{
+                   width: 40%;
+                   float: left; 
+                   margin-left: 5%;
+                }
+                
+                
+                .sr-header{
+                    color: silver;
+                    padding-left: 0%;
+                }
+                
+                .sr-contain{
+                    color: silver;
+                    padding-left: 0%;
+                    padding-right: 0%;
+                }
+                
+                .sr-contain a{
+                    color:springgreen;
+                    text-decoration: none;
+                }
+
+                
+                .sr-right{
+                    display: block;
+                    float: right;
+                    width: 50%;
+                    margin-left: 2.5%;
+                    margin-right:0%
+                }
+                .sr-right-header{
+                    color: silver;
+                    padding-left: 0%;
+                }
+                
+                .sr-right-container{
+                    color: silver;
+                    padding-left: 10%;
+                    padding-right: 0%;
+                }
+                
+                .w1-list ul{
+                    list-style-type: none;
+                    overflow: hidden;
+                }
+                .w1-list  ul li{
+                    float: left;
+                    padding-left: 2.5%;
+                    padding-right: 2.5%;
+                }
+                .w1-list li a{
+                    text-decoration: none;
+                }
+                
+                /*************** Six Down ***************/
+                
+                .body-six-down{
+                    display: block;
+                    overflow: hidden;
+                    margin-top: 5%;
+                }
+                
+                .six-down-left{
+                width:50%;
+                float: left;
+                height: 100px;
+                overflow: hidden;
+                }
+                
+                .input-parent{
+                    width: 100%;
+                    position: relative;
+                    
+                }
+
+                .input-parent input{
+                    background-color:#2e2e2e;
+                    color: silver;
+                    border:none;    
+                    outline: none;
+                    height: 36px;
+                    width: 70%;
+                    
+                }
+
+                .img-child{
+                    position: absolute;
+                    right:22%;
+                    top: 0%;
+                    height: 50px;
+                }
+                .six-down-right{
+                width:50%;
+                float: right;
+                overflow: hidden;
+                }
+                
+                
+
+                .sr-conto{
+                    max-width: 100%;
+                    overflow: hidden;
+                }
+
+                .sr-conto ul{
+                    list-style-type: none;
+                }
+                .sr-conto li{
+                    float: right;
+                    padding-left: 2%;
+                  
+                }
+/**************Footer**************/
+.footer-wrapper{
+    display: block;
+}
+.footer-container{
+width:67.368421%;
+margin:0 auto;
+overflow: hidden;  
+}
+.footer-right{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.footer-left{
+    width:50%;
+    float: left;
+}
+
+.footer-left{
+    padding-top: 0%;
+    color: silver;
+    text-align: start;
+}
+.footer-right ul {
+list-style-type: none;
+color: silver;
+font-size: medium;
+}
+.footer-right li {
+float: right;
+}
+.footer-right li a{
+text-decoration: none;
+color: silver;
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

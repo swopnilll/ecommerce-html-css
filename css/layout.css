@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Maven pro',sans-serif;
+    box-sizing: border-box;
+  }
+
+/**************************************************************************************/
+/******************************Header*************************************************/
+/**************************************************************************************/
+
+/*************** Top Header *****************/ 
+.header-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+.top-header-wrapper{
+    width: 100%; 
+    overflow: hidden;
+    background-color: black;
+}
+
+.left-top-header{
+    float:left;
+    width: 50%;
+    overflow: hidden;
+   }
+.right-top-header{
+    float: right;
+    width: 50%;
+    overflow: hidden;
+}
+.main-logo img{
+    max-width: 100%;
+}
+
+
+/*************** Bottom Header *****************/
+
+.buttom-header-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottom-header-left{
+    float:left;
+    width: 50%;
+    overflow: hidden;
+    
+}
+
+.bottom-header-right{
+    float:right;
+    width: 50%;
+    overflow: hidden;
+}
+
+/**************************************************************************************/
+/*****************************************Body*****************************************/
+/**************************************************************************************/
+.body-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+
+/************Body Top*******/
+.body-top-wrapper{
+    width: 100%;
+    background-color:#efebe8;
+}
+.body-top{
+    width: 100%;
+}
+
+/************Body Second*******/
+.body-second-wrapper{
+    width: 100%;
+    overflow: hidden;
+    background-color:black;
+}
+.onsale-product{
+    width: 100%;
+    overflow: hidden;
+}
+
+/************Body Third*******/
+
+.body-third-wrapper{
+    width: 100%;
+    overflow: hidden;
+    background-color:#ebe7df;
+}
+
+.new-arrivals{
+    width: 100%;
+    overflow: hidden;
+}
+.new-arrivals-header{
+    width: 100%;
+    overflow: hidden;
+}
+
+.new-arrival-list{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.new-arrival-content{
+    width: 100%;
+    overflow: hidden;    
+}
+/************Body Fifth*******/
+.body-fifth-wrapper{
+    width: 100%;
+    overflow: hidden;
+    background-color:#ebe7df;
+}
+
+.body-fifth-container{
+    width: 100%;
+    overflow: hidden;
+    background-color:#ebe7df;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.na2{
+    width: 100%;
+}
+.na2 img{
+max-width: 100%;
+}
+
+.price-cont{
+    width: 100%;
+}
+.price-cont img{
+    max-width: 100%;
+}
+
+.w1-list{
+    width: 100%;
+}
+
+.w1-list img{
+    max-width: 100%;
+}
+
+.img-1{
+    width: 100%;
+}
+.img-1 img{
+    max-width: 100%;
+}
+.sr-conto {
+    width:100%
+}
+.sr-conto img{
+    max-width: 100%;
+}
